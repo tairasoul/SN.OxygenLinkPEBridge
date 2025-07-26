@@ -34,7 +34,7 @@ class OxygenLinkPatch
           EventListeners listeners = new()
           {
             OnAddExpr = item => OurProcess(__instance, item),
-            OnRemoveExpr = item => OurProcess(__instance, item)
+            OnRemoveExpr = item => OurProcess(__instance, item, true)
           };
           coll.Add(iContainer, listeners);
           iContainer.onAddItem += listeners.OnAddExpr;
