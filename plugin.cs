@@ -4,7 +4,7 @@ using HarmonyLib;
 
 namespace OxygenLinkPEBridge;
 
-[BepInPlugin("tairasoul.subnautica.oxygenlinkpebridge", "OxygenLinkPEBridge", "1.0.0")]
+[BepInPlugin("tairasoul.subnautica.oxygenlinkpebridge", "OxygenLinkPEBridge", "1.0.1")]
 [BepInDependency("0xKate.OxygenLink")]
 [BepInDependency("PickupableStorageEnhanced")]
 class Plugin : BaseUnityPlugin 
